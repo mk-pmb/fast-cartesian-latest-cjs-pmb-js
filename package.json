@@ -17,12 +17,16 @@
   "private": false, "license": "ISC",
 
   "main": "alias.js",
-  "scripts": { "test": "node test/all.js" },
+  "scripts": { "test": "node test/basics.mjs" },
   "directories": { "test": "test" },
   "eslintConfig": { "extends": "nodejs-pmb" },
 
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "fast-cartesian": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint-config-nodejs-pmb": "^0.2.1"
+  },
 
 
   "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
