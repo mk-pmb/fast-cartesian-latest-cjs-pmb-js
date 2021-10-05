@@ -1,0 +1,29 @@
+{ "name": "fast-cartesian-latest-cjs-pmb",
+  "version": "0.211005.0",
+  "description": "Alias package for the latest `fast-cartesian` that supports to be require()d from CJS.",
+  "keywords": [],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/fast-cartesian-latest-cjs-pmb-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/fast-cartesian-latest-cjs-pmb-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/fast-cartesian-latest-cjs-pmb-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "main": "alias.js",
+  "scripts": { "test": "node test/all.js" },
+  "directories": { "test": "test" },
+  "eslintConfig": { "extends": "nodejs-pmb" },
+
+  "dependencies": {},
+  "devDependencies": {},
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
